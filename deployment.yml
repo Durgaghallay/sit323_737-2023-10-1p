@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: calculator-app-deployment
+  labels:
+    app: calculator-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: calculator-app
+  template:
+    metadata:
+      labels:
+        app: calculator-app 
+    spec:
+      containers:
+      - name: calculator-node-app
+        image: gcr.io/cryptic-hawk-387111/calculator-node-app:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3040
+---

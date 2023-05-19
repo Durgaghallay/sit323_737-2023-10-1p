@@ -1,0 +1,15 @@
+version: '3.8'  #specifies docker compose version
+services:
+  web:
+    build:
+      context: ./
+    command: npm start
+    ports:
+      - "3040:3040"
+    restart: "on-failure"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:3040/healthcheck" ]
+      interval: 10s
+      retries: 5
+      start_period: 20s
+      timeout: 10s

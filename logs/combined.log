@@ -1,0 +1,18 @@
+{"level":"info","message":"New divide operation requested: 4/4","service":"calculator-microservice"}
+{"level":"info","message":"New divide operation requested: 4/a","service":"calculator-microservice"}
+{"level":"error","message":"Divide operation error. Error Message n2 incorrectly defined ","service":"calculator-microservice"}
+{"level":"info","message":"New add operation requested: 4+3","service":"calculator-microservice","timestamp":"3/30/2023, 9:46:40 PM"}
+{"level":"info","message":"New add operation requested: 180+90","service":"calculator-microservice","timestamp":"3/30/2023, 11:25:32 PM"}
+{"level":"info","message":"New add operation requested: 180+90","service":"calculator-microservice","timestamp":"3/30/2023, 11:25:48 PM"}
+{"level":"info","message":"New subtract operation requested: 180-90","service":"calculator-microservice","timestamp":"3/30/2023, 11:26:51 PM"}
+{"level":"info","message":"New multiply operation requested: 180*90","service":"calculator-microservice","timestamp":"3/30/2023, 11:28:16 PM"}
+{"level":"info","message":"New divide operation requested: 180/90","service":"calculator-microservice","timestamp":"3/30/2023, 11:28:45 PM"}
+{"level":"info","message":"New divide operation requested: a/b","service":"calculator-microservice","timestamp":"3/30/2023, 11:29:25 PM"}
+{"level":"error","message":"Divide operation error. Error Message n1 incorrectly defined ","service":"calculator-microservice","timestamp":"3/30/2023, 11:29:25 PM"}
+{"level":"info","message":"New divide operation requested: 2/b","service":"calculator-microservice","timestamp":"3/30/2023, 11:29:45 PM"}
+{"level":"error","message":"Divide operation error. Error Message n2 incorrectly defined ","service":"calculator-microservice","timestamp":"3/30/2023, 11:29:45 PM"}
+{"level":"info","message":"Health Check requested","service":"calculator-microservice","timestamp":"4/7/2023, 5:27:28 PM"}
+{"level":"info","message":"Health Check requested","service":"calculator-microservice","timestamp":"4/7/2023, 5:28:15 PM"}
+{"level":"info","message":"Health Check requested","service":"calculator-microservice","timestamp":"4/7/2023, 5:28:22 PM"}
+{"level":"info","message":"Health Check requested","service":"calculator-microservice","timestamp":"4/7/2023, 5:28:33 PM"}
+{"level":"info","message":"Health Check requested","service":"calculator-microservice","timestamp":"4/7/2023, 5:29:00 PM"}
